@@ -1,0 +1,101 @@
+
+    .header_socials{
+        display: flex;
+        flex-direction:column;
+        position: fixed; 
+        padding-top: 8rem;
+        border-top-right-radius: 45%;
+        border-bottom-right-radius: 45%;
+    } 
+    .con-icon:hover{
+        min-width: 5rem;
+        transition: opacity .3s;
+        content: 'contact us';
+    }
+
+
+    .header_socials>a{
+        height:'1rem';
+        width: 1rem;
+        border-radius: 50%;   
+    }
+
+    .header_socials>a:hover{
+        min-width: 8rem;
+        transition: opacity .6s;
+    }
+
+    .con-icon{
+        color: white;
+        font-size: 1rem;
+        margin-bottom: 2rem;
+        background-color: rgb(44, 44, 241);
+        border-top-right-radius: 50%;
+        border-bottom-right-radius: 50%;
+        width: 3rem;
+        height: 2.5rem;
+    }
+
+    .wap-icon{
+        color: white;
+        font-size: 1rem;
+        margin-bottom: 2rem;
+        background-color: rgb(27, 148, 37);
+        border-top-right-radius: 50%;
+        border-bottom-right-radius: 50%;
+        width: 3rem;
+        height: 2.5rem;
+    }
+    .wap-icon:hover{
+        min-width: 5rem;
+        transition: opacity .3s;
+        content: 'contact us';
+    }
+    .tele-icon{
+        color: white;
+        font-size: 2rem;
+        margin-bottom: 2rem;
+        background-color: rgb(44, 44, 241);
+        border-top-right-radius: 50%;
+        border-bottom-right-radius: 50%;
+        width: 3rem;
+        height: 2.5rem;
+    }
+    .tele-icon:hover{
+        min-width: 5rem;
+        transition: opacity .3s;
+        content: 'contact us';
+    }
+    .skype-icon{
+        color: white;
+        font-size: 2rem;
+        margin-bottom: 2rem;
+        background-color: rgb(44, 228, 241);
+        border-top-right-radius: 50%;
+        border-bottom-right-radius: 50%;
+        width: 3rem;
+        height: 2.5rem;
+    }
+    .skype-icon:hover{
+        min-width: 5rem;
+        transition: opacity .5s;
+        content: 'contact us';
+    }
+
+    @media screen and(max-width: 767px){
+        .header_socials{
+            display: flex;
+            flex-direction:column;
+            position: fixed; 
+            padding-top: 8rem;
+            border-top-right-radius: 45%;
+            border-bottom-right-radius: 45%;
+        } 
+        .con-icon:hover{
+            min-width: 5rem;
+            transition: opacity .3s;
+            content: 'contact us';
+        }
+    
+        
+    }

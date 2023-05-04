@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: center;
+  }
+.about-container
+{  margin-top: 3rem;
+   margin-bottom: 3rem;
+   text-align: center; 
+   padding: 2rem; 
+}
+
+h1{
+    color: rgb(221, 70, 24);
+    font-weight: bolder;
+}
+span{
+    color: black;
+}
+P{
+    font-size: large;
+}
+
+@media screen and (max-width:767px) {
+    .about-container
+{  margin-top: 3rem;
+   margin-bottom: 3rem;
+   text-align: center; 
+   padding: 2rem; 
+}
+    
+}
